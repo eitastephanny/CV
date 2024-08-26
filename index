@@ -1,0 +1,114 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <style>
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(lightgrey);
+}
+header{
+    width: auto;
+    padding: 2px 0 0 20px;
+    text-align: center;
+    border: 1px solid;
+    background-color: #D14751;
+  	padding: 20px;
+}
+
+.sobre{
+	position:fixed;
+    top: 150px;
+    left: 10px;
+}
+
+.formacao{
+	position:fixed;
+    top: 70px;
+    right: 10px;
+}
+
+.portfolio{
+	position:fixed;
+    top: 70px;
+    left: 10px;
+}
+
+.sobre{
+	position:fixed;
+    top: 70px;
+    left: 10px;
+}
+
+h1 {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+.container-conteudo {
+    text-align: center;
+
+    line-height: 1em;
+    width: auto;
+}
+h2 {
+    font-weight: bold;
+    margin: 50px 0 0  0 ;
+}
+li p {
+    line-height: 2em;
+}
+.container-contato {
+    margin: 0 0 0 10px ;
+    text-align: center;
+}
+
+footer {
+    background: lightblue;
+    width: auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 0 100px 0;
+}
+	</style>
+    <title>Meu curriculo</title>
+</head>
+<body>
+    <header>
+      <div>
+        <h1>Stéphanny Hildefonso Custodio</h1>
+      </div>
+    </header>
+    <main>
+    <div>
+    <button class="sobre">
+    	<a href="http://www.google.com"><h2 >Sobre mim</h2></a>
+        </button>
+    </div>
+	<div>
+    <button class="formacao">
+    	<a href="http://www.google.com"><h2>Formação</h2></a>
+        </button>
+    </div>
+    <div>
+    <button class="portfolio">
+    	<a href="http://www.google.com"><h2>Portfólio</h2></a>
+    </button>
+    </div>
+    <div>
+    <button class="contato">
+    	<a href="http://www.google.com"><h2>Contato</h2></a>
+        </button>
+    </div>
+     
+  </main>
+  <footer>
+    <p class="copyright">© Copyright Stéphanny 2024</p>
+  </footer>
+</body>
+</html>
